@@ -12,6 +12,10 @@ double Triangle::Perimeter() const
 void Triangle::print() const
 {
 	cout << "~~~~TRIANGLE~~~~" << endl;
+	cout << "A:\t" << angle_A << endl;
+	cout << "B:\t" << angle_B << endl;
+	cout << "C:\t" << angle_C << endl;
+
 }
 
 double Triangle::Area() const
@@ -36,6 +40,10 @@ double Rectangle::Perimetr() const
 void Rectangle::print() const
 {
 	cout << "~~~~RECTANGLE~~~~" << endl;
+	cout << "A:\t" << angle_a << endl;
+	cout << "B:\t" << angle_b << endl;
+	Area();
+	Perimetr();
 }
 
 Circle::Circle(double r)
@@ -55,4 +63,5 @@ double Circle::Perimetr() const
 void Circle::print() const
 {
 	cout << "~~~~CIRCLE~~~~" << endl;
+	cout << "Radius:\t" << radius << endl;
 }
